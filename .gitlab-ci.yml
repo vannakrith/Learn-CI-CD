@@ -2,7 +2,7 @@ stages:
   - build
 
 build_stage:
-  stag: build
+  stage: build
   script:
     - npm install
     - npm run build
